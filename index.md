@@ -2,122 +2,71 @@
 layout: default
 ---
 
-Text can be **bold**, _italic_, or ~~strikethrough~~.
+**Hey**, thanks for dropping by!
 
-[Link to another page](./another-page.html).
-
-There should be whitespace between paragraphs.
-
-There should be whitespace between paragraphs. We recommend including a README, or a file with information about your project.
-
-# Header 1
-
-This is a normal paragraph following a header. GitHub is a code hosting platform for version control and collaboration. It lets you and others work together on projects from anywhere.
-
-## Header 2
-
-> This is a blockquote following a header.
->
-> When something is important enough, you do it even if the odds are not in your favor.
-
-### Header 3
-
-```js
-// Javascript code with syntax highlighting.
-var fun = function lang(l) {
-  dateformat.i18n = require('./lang/' + l)
-  return true;
-}
-```
-
-```ruby
-# Ruby code with syntax highlighting
-GitHubPages::Dependencies.gems.each do |gem, version|
-  s.add_dependency(gem, "= #{version}")
-end
-```
-
-#### Header 4
-
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-*   This is an unordered list following a header.
-
-##### Header 5
-
-1.  This is an ordered list following a header.
-2.  This is an ordered list following a header.
-3.  This is an ordered list following a header.
-
-###### Header 6
-
-| head1        | head two          | three |
-|:-------------|:------------------|:------|
-| ok           | good swedish fish | nice  |
-| out of stock | good and plenty   | nice  |
-| ok           | good `oreos`      | hmm   |
-| ok           | good `zoute` drop | yumm  |
-
-### There's a horizontal rule below this.
+This is a minimal personal website.
 
 * * *
 
-### Here is an unordered list:
+Formally, I am a machine learning engineer with six years of experience. I have built and productized AI systems with Python, machine learning frameworks such as TensorFlow and PyTorch, and Generative AI products such as Vertex AI and OpenAI API.
 
-*   Item foo
-*   Item bar
-*   Item baz
-*   Item zip
-
-### And an ordered list:
-
-1.  Item one
-1.  Item two
-1.  Item three
-1.  Item four
-
-### And a nested list:
-
-- level 1 item
-  - level 2 item
-  - level 2 item
-    - level 3 item
-    - level 3 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-  - level 2 item
-  - level 2 item
-- level 1 item
-
-### Small image
-
-![Octocat](https://github.githubassets.com/images/icons/emoji/octocat.png)
-
-### Large image
-
-![Branching](https://guides.github.com/activities/hello-world/branching.png)
+Informally, I make neural nets go brrr.
 
 
-### Definition lists can be used with HTML syntax.
+## Work Experience
 
-<dl>
-<dt>Name</dt>
-<dd>Godzilla</dd>
-<dt>Born</dt>
-<dd>1952</dd>
-<dt>Birthplace</dt>
-<dd>Japan</dd>
-<dt>Color</dt>
-<dd>Green</dd>
-</dl>
+* **Machine Learning Engineer** at [Sellpy](https://www.sellpy.com/) - Stockholm, Sweden, _Dec. 2022 - Ongoing_
+    * I am integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve less human supervision.
+    * I also work a lot with deep learning models (e.g. user recommendations, various classification and regression problems) data engineering, and cloud infrastructure.
+    * Day to day, I mostly use TensorFlow, PyTorch, Google Cloud (BigQuery, Vertex AI), LangChain, Langfuse, Qdrant, Pinecone, OpenAI API, Sentry, Docker, PostgreSQL, Apache Airflow, AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, Bedrock).
+* **Machine Learning Engineer** at [Ecobloom](https://ecobloom.se/) - Stockholm, Sweden, _Aug. 2020 - Dec. 2022_
+    * I developed data infrastructure and end-to-end deep learning pipelines for data collection, data annotation, data quality control, and model training on the Google Cloud Platform using PyTorch, Vertex AI, Cloud Pub/Sub, Cloud Functions, Cloud SQL, BigQuery, Dataflow, and Cloud Data Fusion.
+* **Research and Development Engineer** at [Nexperia](https://www.nexperia.com/) - Manchester, United Kingdom, _Sep. 2018 - Aug. 2019_
+    * I worked with the analysis of raw manufacturing data, and developed a semiconductor design process simulation software in Python.
 
-```
-Long, single-line code blocks should not wrap. They should horizontally scroll if they are too long. This line should be long enough to demonstrate this.
-```
 
-```
-The final element.
-```
+## Education
+
+* [**KTH Royal Institute of Technology**](https://www.kth.se/en), Master of Science (MSc) in Machine Learning - Stockholm, Sweden, _Aug. 2020 - Jul. 2022_
+    * In my [research thesis](https://urn.kb.se/resolve?urn=urn:nbn:se:kth:diva-320781), I worked on semi-supervised deep learning to increase object detection efficiency with scarce annotations. My aim was to
+    demonstrate the feasibility of improving object detection performance with the [Unbiased Teacher for Semi-Supervised Object Detection](https://arxiv.org/abs/2102.09480) algorithm in plant leaf detection and possible stress recognition when few annotations are available. The improved performance reduced the amount of required annotated data for this task, this reduced annotation costs and thereby increased usage for this real-world tasks. This research was supervised by Prof. Josephine Sullivan, and performed for Ecobloom.
+    * I was a teaching Assistant for [DD2424 Deep Learning in Data Science](https://www.kth.se/student/kurser/kurs/DD2424).
+    * My favourite modules were: Advanced Deep Learning, Advanced Machine Learning, Artificial Neural Networks and Deep Architectures, Deep Learning in Data Science, Machine Learning, Artificial Intelligence, Data Mining, Data-Intensive Computing, Probabilistic Graphical Models, and Speech and Speaker Recognition.
+* [**University of Manchester**](https://www.manchester.ac.uk/), Bachelor of Engineering (BEng) in Electronic Engineering First-Class Honours - Manchester, United Kingdom, _Sep. 2016 - Jun. 2020_
+    * My final year project was titled ["Real-Time Object Detection with Deep Learning on an Embedded GPU System"](https://www.youtube.com/watch?v=wdFlkIhmTVQ), and was supervised by Prof. Hujun Yin.
+
+
+## Technologies and Programming Languages
+
+I mostly work with:
+* Python
+* Docker
+* Generative AI APIs such as Vertex AI, OpenAI API, and AWS Bedrock
+* TensorFlow/PyTorch
+* AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway)
+* PostgreSQL/BigQuery
+* Qdrant (vector database)
+* Langfuse (LLM logging)
+
+I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, FastAPI, Flask, Dask, Pillow, httpx, asyncio, Pydantic, poetry, pytest, just to mention a few.
+
+I dabble with:
+* Apple's array framework for Apple silicon called MLX becauase I think the unified memory model makes it a great tool for ML.
+* NeRFs for 3D reconstruction.
+* Algorithmic trading with Reinforcement Learning using Stable-Baselines3. I worked on an algorithmic trading application with friends, where we trained LSTM and Transformer-based time series neural networks to predict stock prices and used Reinforcement Learning to optimize trading strategies. This project was a lot of fun, but we never published it because we never actually found a strategy that consistently beat the market. But I learned a lot about evaluating RL models, which is a really different problem from evaluating supervised models.
+* Simple apps made with NextJS and Generative AI APIs. For example, I once built (but never published) a simple app where users could create puzzle games such as NYT's Wordle and Connections games, with the aid of Generative AI (because I think it's hard to come up with new puzzles but fun with a little help), and then share and play them with friends. I never published this app because recent press shows that NYT really doesn't like it when you copy their games, but it was a fun project to work on.
+
+## Pet projects
+
+* [re-sln](https://github.com/mark-antal-csizmadia/re-sln)
+    * Re-implementation of the paper titled ["Noise against noise: stochastic label noise helps combat inherent label noise"](https://openreview.net/forum?id=80FMcTSZ6J0) from ICLR 2021.
+    * Reproduces the results of the paper.
+* [nn-blocks](https://github.com/mark-antal-csizmadia/nn-blocks)
+    * Following Andrej Karpathy's example, I implemented a bunch of neural network blocks from scratch in Python and NumPy (strictly no TensorFlow or PyTorch allowed), to understand how neural networks work under the hood.
+    * It was a bunch of fun to implement, and I learned a lot about how neural networks work.
+* the algorithmic trading app I mentioned above
+* the puzzle game app I mentioned above
+* something with NeRFs that I am working on right now
+
+
+I have a bunch of smaller projects (some from uni, some from elsewhere), but these are the ones that deserve a mention. The rest are on my [GitHub](https://github.com/mark-antal-csizmadia).

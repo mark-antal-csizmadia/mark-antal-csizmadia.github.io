@@ -1,9 +1,9 @@
 # Site settings
-title: Mark Csizmadia - Personal Website
+title: Márk Antal Csizmadia
 author:
-  name: Mark Csizmadia
+  name: Márk Antal Csizmadia
   email: mark.antal.csizmadia@gmail.com
-description: "Mark Csizmadia's personal website"
+description: "My minimal personal website."
 
 # Build settings
 remote_theme: pages-themes/minimal@v0.2.0
