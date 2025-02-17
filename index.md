@@ -17,8 +17,8 @@ Informally, I make neural nets go brrr.
 
 * **Machine Learning Engineer** at [Sellpy](https://www.sellpy.com/) - Stockholm, Sweden, _Dec. 2022 - Ongoing_
     * I am integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve less human supervision.
-    * I also work a lot with deep learning models (e.g. user recommendations, various classification and regression problems) data engineering, and cloud infrastructure.
-    * Day to day, I mostly use TensorFlow, PyTorch, Google Cloud (BigQuery, Vertex AI), LangChain, Langfuse, Qdrant, Pinecone, OpenAI API, Sentry, Docker, PostgreSQL, Apache Airflow, AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, Bedrock).
+    * I also work a lot with deep learning models (e.g. user recommendations, various classification and regression problems) data engineering (ETL pipelines), and cloud infrastructure (Infrastructure As Code).
+    * Day to day, I mostly use Python, TensorFlow, PyTorch, Google Cloud (BigQuery, Vertex AI), LangChain, Langfuse, Qdrant, OpenAI API, Docker, Sentry, PostgreSQL, Apache Airflow, AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, Bedrock, CloudFormation).
 * **Machine Learning Engineer** at [Ecobloom](https://ecobloom.se/) - Stockholm, Sweden, _Aug. 2020 - Dec. 2022_
     * I developed data infrastructure and end-to-end deep learning pipelines for data collection, data annotation, data quality control, and model training on the Google Cloud Platform using PyTorch, Vertex AI, Cloud Pub/Sub, Cloud Functions, Cloud SQL, BigQuery, Dataflow, and Cloud Data Fusion.
 * **Research and Development Engineer** at [Nexperia](https://www.nexperia.com/) - Manchester, United Kingdom, _Sep. 2018 - Aug. 2019_
@@ -43,18 +43,12 @@ I mostly work with:
 * Docker
 * Generative AI APIs such as Vertex AI, OpenAI API, and AWS Bedrock
 * TensorFlow/PyTorch
-* AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway)
+* AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, CloudFormation)
 * PostgreSQL/BigQuery
 * Qdrant (vector database)
 * Langfuse (LLM logging)
 
 I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, FastAPI, Flask, Dask, Pillow, httpx, asyncio, Pydantic, poetry, pytest, just to mention a few.
-
-I dabble with:
-* Apple's array framework for Apple silicon called MLX becauase I think the unified memory model makes it a great tool for ML.
-* NeRFs for 3D reconstruction.
-* Algorithmic trading with Reinforcement Learning using Stable-Baselines3. I worked on an algorithmic trading application with friends, where we trained LSTM and Transformer-based time series neural networks to predict stock prices and used Reinforcement Learning to optimize trading strategies. This project was a lot of fun, but we never published it because we never actually found a strategy that consistently beat the market. But I learned a lot about evaluating RL models, which is a really different problem from evaluating supervised models.
-* Simple apps made with NextJS and Generative AI APIs. For example, I once built (but never published) a simple app where users could create puzzle games such as NYT's Wordle and Connections games, with the aid of Generative AI (because I think it's hard to come up with new puzzles but fun with a little help), and then share and play them with friends. I never published this app because recent press shows that NYT really doesn't like it when you copy their games, but it was a fun project to work on.
 
 ## Pet projects
 
@@ -64,9 +58,11 @@ I dabble with:
 * [nn-blocks](https://github.com/mark-antal-csizmadia/nn-blocks)
     * Following Andrej Karpathy's example, I implemented a bunch of neural network blocks from scratch in Python and NumPy (strictly no TensorFlow or PyTorch allowed), to understand how neural networks work under the hood.
     * It was a bunch of fun to implement, and I learned a lot about how neural networks work.
-* the algorithmic trading app I mentioned above
-* the puzzle game app I mentioned above
-* something with NeRFs that I am working on right now
 
+I dabble with:
+* Apple's array framework for Apple silicon called MLX becauase I think the unified memory model makes it a great tool for ML.
+* NeRFs for 3D reconstruction.
+* Algorithmic trading with Reinforcement Learning using Stable-Baselines3. I worked on an algorithmic trading application with friends, where we trained LSTM and Transformer-based time series neural networks to predict stock prices and used Reinforcement Learning to optimize trading strategies. This project was a lot of fun, but we never published it because we never actually found a strategy that consistently beat the market. But I learned a lot about evaluating RL models, which is a really different problem from evaluating supervised models.
+* Simple apps made with NextJS and Generative AI APIs. For example, I once built but never published an app where users could create puzzle games, for example, NYT's Connections (but for example, more themes and words in Connections that 4x4), with the aid of Generative AI. Using Generative AI in my opinion is a great use case for this as it's hard to come up with new puzzles but fun with a little help. Users could share and play these games with friends, see leaderboards, popular games, etc. I never published this app because recent press shows that NYT really doesn't like it when one creates platforms offering puzzle games even slightly resembling theirs, but it was a fun project to work on.
 
 I have a bunch of smaller projects (some from uni, some from elsewhere), but these are the ones that deserve a mention. The rest are on my [GitHub](https://github.com/mark-antal-csizmadia).
