@@ -12,6 +12,8 @@ Formally, I am a machine learning engineer with six years of experience. I have 
 
 Informally, I make neural nets go brrr.
 
+I am from Budapest, Hungary, and I live in Stockholm, Sweden. I have also studied and worked in Manchester, United Kingdom.
+
 
 ## Work Experience
 
