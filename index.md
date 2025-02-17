@@ -16,13 +16,13 @@ Informally, I make neural nets go brrr.
 ## Work Experience
 
 * **Machine Learning Engineer** at [Sellpy](https://www.sellpy.com/) - Stockholm, Sweden, _Dec. 2022 - Ongoing_
-    * I am integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve more accurate and scalable product processing (process products sold by users, stored by the company) with less human supervision.
+    * I am integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve more accurate and scalable product processing with less human supervision. The product processing that we are aiming to optimise is as follows: users send their products to the company, the company processes them (describes products, decides if product is sellable or not, determines the sales price of the product), the company then stores the products, and then the products are shipped when another user buys them.
     * I also work a lot with deep learning models (e.g. user recommendations, various classification and regression problems) data engineering (ETL pipelines), and cloud infrastructure (Infrastructure As Code).
     * Day to day, I mostly use Python, TensorFlow, PyTorch, Google Cloud (BigQuery, Vertex AI), LangChain, Langfuse, Qdrant, OpenAI API, Docker, Sentry, PostgreSQL, Apache Airflow, AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, Bedrock, CloudFormation).
 * **Machine Learning Engineer** at [Ecobloom](https://ecobloom.se/) - Stockholm, Sweden, _Aug. 2020 - Dec. 2022_
-    * I developed data infrastructure and end-to-end deep learning pipelines for data collection, data annotation, data quality control, and model training on the Google Cloud Platform using PyTorch, Vertex AI, Cloud Pub/Sub, Cloud Functions, Cloud SQL, BigQuery, Dataflow, and Cloud Data Fusion.
+    * I developed data infrastructure and deep learning pipelines for plant leaf detection and possible stress recognition on Google Cloud Platform using PyTorch, Vertex AI, Cloud Pub/Sub, Cloud Functions, Cloud SQL, BigQuery, Dataflow, and Cloud Data Fusion.
 * **Research and Development Engineer** at [Nexperia](https://www.nexperia.com/) - Manchester, United Kingdom, _Sep. 2018 - Aug. 2019_
-    * I developed semiconductor design process simulation software in Python, and extracted actionable insights from raw manufacturing data.
+    * I developed semiconductor design process simulation software in Python, and extracted actionable insights from raw manufacturing data using statistical techinques.
 
 
 ## Education
@@ -48,6 +48,9 @@ I mostly work with:
 * Qdrant (vector database)
 * Langfuse (LLM logging)
 
+I also have experience with:
+* Retrieval-augmented generation (RAG), RAG with Knowledge Graph (Neo4j), RAG Evaluations (Ragas) via pro-bono consulting
+
 I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, FastAPI, Flask, Dask, Pillow, httpx, asyncio, Pydantic, poetry, pytest, just to mention a few.
 
 ## Pet projects
@@ -58,6 +61,9 @@ I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplot
 * [nn-blocks](https://github.com/mark-antal-csizmadia/nn-blocks)
     * Following Andrej Karpathy's example, I implemented a bunch of neural network blocks from scratch in Python and NumPy (strictly no TensorFlow or PyTorch allowed), to understand how neural networks work under the hood.
     * It was a bunch of fun to implement, and I learned a lot about how neural networks work.
+* [tsboi](https://github.com/mark-antal-csizmadia/tsboi)
+    * Time-series forecasting of crypto with XGBoost and Transformers.
+    * Deploying models with MLFlow.
 
 I dabble with:
 * Apple's array framework for Apple silicon called MLX becauase I think the unified memory model makes it a great tool for ML.
