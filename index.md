@@ -49,7 +49,7 @@ I mostly work with:
 * Langfuse (LLM logging)
 
 I also have experience with:
-* Retrieval-augmented generation (RAG), RAG with Knowledge Graph (Neo4j), RAG Evaluations (Ragas) via pro-bono consulting
+* Retrieval-augmented generation (RAG), RAG with Knowledge Graph (Neo4j), RAG Evaluations (Ragas), OSS models (using Ollama) via pro-bono consulting
 
 I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, FastAPI, Flask, Dask, Pillow, httpx, asyncio, Pydantic, poetry, pytest, just to mention a few.
 
