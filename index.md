@@ -18,11 +18,11 @@ I am from Budapest, Hungary, and I live in Stockholm, Sweden. I have also studie
 ## Work Experience
 
 * **Machine Learning Engineer** at [Sellpy](https://www.sellpy.com/) - Stockholm, Sweden, _Dec. 2022 - Ongoing_
-    * I am integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve more accurate and scalable product processing with less human supervision. The product processing that we are aiming to optimise is as follows: users send their products to the company, the company processes them (describes products, decides if product is sellable or not, determines the sales price of the product), the company then stores the products, and then the products are shipped when another user buys them.
-    * I also work a lot with deep learning models (e.g. user recommendations, various classification and regression problems) data engineering (ETL pipelines), and cloud infrastructure (Infrastructure As Code).
+    * I am integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve more accurate and scalable product processing with less human supervision.
+    * I also work a lot with deep learning models and neural networks (e.g. user recommendations, various classification and regression problems) data engineering (ETL pipelines), and cloud infrastructure (Infrastructure As Code).
     * Day to day, I mostly use Python, TensorFlow, PyTorch, Google Cloud (BigQuery, Vertex AI), LangChain, Langfuse, Qdrant, OpenAI API, Docker, Sentry, PostgreSQL, Apache Airflow, AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, Bedrock, CloudFormation).
 * **Machine Learning Engineer** at [Ecobloom](https://ecobloom.se/) - Stockholm, Sweden, _Aug. 2020 - Dec. 2022_
-    * I developed data infrastructure and deep learning pipelines for plant leaf detection and possible stress recognition on Google Cloud Platform using PyTorch, Vertex AI, Cloud Pub/Sub, Cloud Functions, Cloud SQL, BigQuery, Dataflow, and Cloud Data Fusion.
+    * Developed large scale, distributed data processing infrastructure and deep learning pipelines for plant leaf detection and stress recognition on Google Cloud Platform. Built with: Cloud Pub/Sub, Cloud Functions Cloud SQL, BigQuery, Dataflow / Apache Beam, Cloud Data Fusion, Vertex AI, and PyTorch.
 * **Research and Development Engineer** at [Nexperia](https://www.nexperia.com/) - Manchester, United Kingdom, _Sep. 2018 - Aug. 2019_
     * I developed semiconductor design process simulation software in Python, and extracted actionable insights from raw manufacturing data using statistical techinques.
 
@@ -44,14 +44,19 @@ I mostly work with:
 * Python
 * Docker
 * Generative AI APIs such as Vertex AI, OpenAI API, and AWS Bedrock
-* TensorFlow/PyTorch
+* TensorFlow/PyTorch/Scikit-learn
 * AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, CloudFormation)
-* PostgreSQL/BigQuery
+* PostgreSQL / BigQuery
 * Qdrant (vector database)
 * Langfuse (LLM logging)
+* Apache Spark
+* FastAPI / Flask
+* Apache Airflow
+* LangChain
 
 I also have experience with:
 * Retrieval-augmented generation (RAG), RAG with Knowledge Graph (Neo4j), RAG Evaluations (Ragas), OSS models (using Ollama) via pro-bono consulting
+* Reinforcement Learning (RL) and bandit algorithms with Stable-Baselines3 for algorithmic trading
 
 I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, FastAPI, Flask, Dask, Pillow, httpx, asyncio, Pydantic, poetry, pytest, just to mention a few.
 
@@ -71,6 +76,6 @@ I dabble with:
 * Apple's array framework for Apple silicon called MLX becauase I think the unified memory model makes it a great tool for ML.
 * Algorithmic trading with Reinforcement Learning using Stable-Baselines3. I worked on an algorithmic trading application with friends, where we trained LSTM and Transformer-based time series neural networks to predict stock prices and used Reinforcement Learning to optimize trading strategies. This project was a lot of fun, but we never published it because we never actually found a strategy that consistently beat the market. But I learned a lot about evaluating RL models, which is a really different problem from evaluating supervised models.
 * NeRFs for 3D reconstruction.
-* Simple apps made with NextJS and Generative AI APIs. For example, I once built but never published an app where users could create puzzle games, for example, NYT's Connections (but for example, more themes and words in Connections that 4x4), with the aid of Generative AI. Using Generative AI in my opinion is a great use case for this as it's hard to come up with new puzzles but fun with a little help. Users could share and play these games with friends, see leaderboards, popular games, etc. I never published this app because recent press shows that NYT really doesn't like it when one creates platforms offering puzzle games even slightly resembling theirs, but it was a fun project to work on.
+* Simple apps made with NextJS and Generative AI APIs. For example, I once built but never published an app where users could create puzzle games, for example, similar to NYT's Connections (but for example, more themes and words in Connections that 4x4), with the aid of Generative AI. Using Generative AI in my opinion is a great use case for this as it's hard to come up with new puzzles but fun with a little help. Users could share and play these games with friends, see leaderboards, popular games, etc.
 
 I have a bunch of smaller projects (some from uni, some from elsewhere), but these are the ones that deserve a mention. The rest are on my [GitHub](https://github.com/mark-antal-csizmadia).
