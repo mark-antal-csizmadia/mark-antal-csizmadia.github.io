@@ -86,6 +86,9 @@ I also have experience with:
     * The reasons I am using MLX (Apple's array framework for Apple silicon) is becauase I think the unified memory model (i.e. no need to move tensors between CPU and GPU) makes it a great tool for ML.
 * Generative AI apps with NextJS, Supabase, and Generative AI APIs
     * For example, I once built but never published an app where users could create puzzle games, for example, similar to NYT's Connections with the aid of Generative AI (mostly Gemini). Using Generative AI in my opinion is a great use case for this as it's hard to come up with new puzzles but fun with a little help. Users could share and play these games with friends, see leaderboards, popular games, etc.
+* Building open-source datasets
+    * Once I built a dataset called "Object Detection: Batteries, Dice, and Toy Cars" for object detection - it's on Kaggle, you can find it [here](https://www.kaggle.com/datasets/markcsizmadia/object-detection-batteries-dices-and-toy-cars)
+    * This is an older project, I lacked some experience in ML back then, but I think it still holds up
 
 I have a bunch of smaller projects on my [GitHub](https://github.com/mark-antal-csizmadia).
 
