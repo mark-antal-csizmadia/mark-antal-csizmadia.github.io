@@ -2,13 +2,11 @@
 layout: default
 ---
 
-**Hey**, thanks for dropping by!
+## Hey there!
 
-This is a minimal personal website.
+**Hey** there, thanks for dropping by! This is my minimal personal website.
 
-* * *
-
-Formally, I am a machine learning engineer with six years of experience. I have built and productized AI systems with Python, machine learning frameworks such as TensorFlow and PyTorch, and Generative AI products such as Vertex AI and OpenAI API.
+Formally, I am a machine learning engineer with six years of experience and demonstrated success in building and productionizing machine learning and recommendation systems using TensorFlow, PyTorch, AWS, GCP, Python, and LLMs.
 
 Informally, I make neural nets go brrr.
 
@@ -18,11 +16,12 @@ I am from Budapest, Hungary, and I live in Stockholm, Sweden. I have also studie
 ## Work Experience
 
 * **Machine Learning Engineer** at [Sellpy](https://www.sellpy.com/) - Stockholm, Sweden, _Dec. 2022 - Ongoing_
-    * I am integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve more accurate and scalable product processing with less human supervision.
-    * I also work a lot with deep learning models and neural networks (e.g. user recommendations, various classification and regression problems) data engineering (ETL pipelines), and cloud infrastructure (Infrastructure As Code).
-    * Day to day, I mostly use Python, TensorFlow, PyTorch, Google Cloud (BigQuery, Vertex AI), LangChain, Langfuse, Qdrant, OpenAI API, Docker, Sentry, PostgreSQL, Apache Airflow, AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, Bedrock, CloudFormation).
+    * Integrating Generative AI models into the company's core system that extracts, stores, and serves data about product features with the aim to achieve more accurate and scalable product processing with less human supervision. For this, I use LLMs, multimodal models, vector databases, and vector and hybrid search algorithms.
+    * I work a lot with machine learning, deep learning, and neural networks in the context of recommendation systems, and classification and regression problems such as product feature classification, product pricing.
+    * I also work quite a bit with data engineering (ETL pipelines) and cloud infrastructure (Infrastructure As Code).
+    * Day to day, I mostly use Python, TensorFlow, PyTorch, Google Cloud (BigQuery, Vertex AI), AWS (Kinesis, S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, Bedrock, CloudFormation), LangChain, Langfuse, Qdrant, OpenAI API, Docker, Sentry, PostgreSQL, Apache Airflow, Git, Scikit-learn, Apache Spark, FastAPI.
 * **Machine Learning Engineer** at [Ecobloom](https://ecobloom.se/) - Stockholm, Sweden, _Aug. 2020 - Dec. 2022_
-    * Developed large scale, distributed data processing infrastructure and deep learning pipelines for plant leaf detection and stress recognition on Google Cloud Platform. Built with: Cloud Pub/Sub, Cloud Functions Cloud SQL, BigQuery, Dataflow / Apache Beam, Cloud Data Fusion, Vertex AI, and PyTorch.
+    * Developed large scale, distributed data processing  infrastructure and deep learning pipelines for plant leaf detection and stress recognition on Google Cloud Platform. Built with: Cloud Pub/Sub, Cloud Functions, Cloud SQL, BigQuery, Dataflow / Apache Beam, Cloud Data Fusion, Vertex AI, and PyTorch.
 * **Research and Development Engineer** at [Nexperia](https://www.nexperia.com/) - Manchester, United Kingdom, _Sep. 2018 - Aug. 2019_
     * I developed semiconductor design process simulation software in Python, and extracted actionable insights from raw manufacturing data using statistical techinques.
 
@@ -40,25 +39,29 @@ I am from Budapest, Hungary, and I live in Stockholm, Sweden. I have also studie
 
 ## Technologies and Programming Languages
 
-I mostly work with:
 * Python
 * Docker
-* Generative AI APIs such as Vertex AI, OpenAI API, and AWS Bedrock
 * TensorFlow/PyTorch/Scikit-learn
-* AWS (S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, CloudFormation)
-* PostgreSQL / BigQuery
-* Qdrant (vector database)
-* Langfuse (LLM logging)
-* Apache Spark
-* FastAPI / Flask
-* Apache Airflow
+* Generative AI APIs such as Vertex AI, OpenAI API, and AWS Bedrock
 * LangChain
+* Amazon Web Services / AWS (Kinesis, S3, Batch, Lambda, ECS, ECR, SQS, API Gateway, CloudFormation)
+* Google Cloud Platform / GCP (Cloud Pub/Sub, Cloud Functions, Cloud SQL, BigQuery, Dataflow / Apache Beam, Cloud Data Fusion, Vertex AI)
+* PostgreSQL / SQL
+* Qdrant / Pinecone (vector database)
+* Langfuse (LLM logging)
+* Apache Spark / Dask / Apache Beam for distributed data processing
+* FastAPI / Flask for API development
+* Apache Airflow for ETL pipelines and ML Operations workflows
+* Git / GitHub
+* Sentry for error tracking
+* MLflow for model tracking
+* Jupyter Notebooks
+* NumPy / Pandas / Matplotlib / Seaborn etc.
+* Unix / Linux
 
 I also have experience with:
 * Retrieval-augmented generation (RAG), RAG with Knowledge Graph (Neo4j), RAG Evaluations (Ragas), OSS models (using Ollama) via pro-bono consulting
 * Reinforcement Learning (RL) and bandit algorithms with Stable-Baselines3 for algorithmic trading
-
-I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplotlib, Seaborn, Scikit-learn, FastAPI, Flask, Dask, Pillow, httpx, asyncio, Pydantic, poetry, pytest, just to mention a few.
 
 ## Pet projects
 
@@ -67,15 +70,25 @@ I use a bunch of tools and libraries: LangChain, LiteLLM, NumPy, Pandas, Matplot
     * Reproduces the results of the paper.
 * [nn-blocks](https://github.com/mark-antal-csizmadia/nn-blocks)
     * Following Andrej Karpathy's example, I implemented a bunch of neural network blocks from scratch in Python and NumPy (strictly no TensorFlow or PyTorch allowed), to understand how neural networks work under the hood.
-    * It was a bunch of fun to implement, and I learned a lot about how neural networks work.
 * [tsboi](https://github.com/mark-antal-csizmadia/tsboi)
-    * Time-series forecasting of crypto with XGBoost and Transformers.
-    * Deploying models with MLFlow.
+    * Time-series forecasting of crypto currency exchange rates with XGBoost and Transformers.
+    * Deploying models with MLflow.
+    * Fun project to learn about time series forecasting, financial data, and MLflow.
+* Algorithmic trading with Reinforcement Learning using Stable-Baselines3
+    * I worked on an algorithmic trading application with friends, where we trained XGBoost and Transformer-based time series neural networks to predict crypto currency exchange rates, and used Reinforcement Learning (RL) to optimise trading strategies.
+    * We built data processing pipelines to fetch, process, and store Kline Candlestick Data, Order Book Data, etc. from Binance for many crypto currency pairs.
+    * We then trained RL models to learn trading strategies given various primary and secondary objectives, such as maximising profit, minimising risk, maximising Sharpe ratio, etc.
+        * One important feature was the predicted exchange rate at so many time steps ahead, for which we used XGBoost and Transformers.
+    * This project was a lot of fun, but we never published it because we never actually found a strategy that consistently beat the market. I learned a lot, though, about evaluating RL models which is a really different problem from evaluating supervised models.
+    * If one was to start with a similar project, I would recommend reading some of the best papers on the topic of RL evaluation (in my opinion): [Deep Reinforcement Learning that Matters](https://arxiv.org/pdf/1709.06560), [Empirical Design in Reinforcement Learning](https://arxiv.org/pdf/2304.01315), the best blog post: [Rliable: Better Evaluation for Reinforcement Learning - A Visual Explanation](https://araffin.github.io/post/rliable/), and to play around with the best RL library: [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3).
+* [NeRFs](https://arxiv.org/abs/2003.08934) for 3D reconstruction
+    * I am playing around with [MLX](https://github.com/ml-explore/mlx) and spending time in implementing some NeRF-based algorithms
+    * The reasons I am using MLX (Apple's array framework for Apple silicon) is becauase I think the unified memory model (i.e. no need to move tensors between CPU and GPU) makes it a great tool for ML.
+* Generative AI apps with NextJS, Supabase, and Generative AI APIs
+    * For example, I once built but never published an app where users could create puzzle games, for example, similar to NYT's Connections with the aid of Generative AI (mostly Gemini). Using Generative AI in my opinion is a great use case for this as it's hard to come up with new puzzles but fun with a little help. Users could share and play these games with friends, see leaderboards, popular games, etc.
 
-I dabble with:
-* Apple's array framework for Apple silicon called MLX becauase I think the unified memory model makes it a great tool for ML.
-* Algorithmic trading with Reinforcement Learning using Stable-Baselines3. I worked on an algorithmic trading application with friends, where we trained LSTM and Transformer-based time series neural networks to predict stock prices and used Reinforcement Learning to optimize trading strategies. This project was a lot of fun, but we never published it because we never actually found a strategy that consistently beat the market. But I learned a lot about evaluating RL models, which is a really different problem from evaluating supervised models.
-* NeRFs for 3D reconstruction.
-* Simple apps made with NextJS and Generative AI APIs. For example, I once built but never published an app where users could create puzzle games, for example, similar to NYT's Connections (but for example, more themes and words in Connections that 4x4), with the aid of Generative AI. Using Generative AI in my opinion is a great use case for this as it's hard to come up with new puzzles but fun with a little help. Users could share and play these games with friends, see leaderboards, popular games, etc.
+I have a bunch of smaller projects on my [GitHub](https://github.com/mark-antal-csizmadia).
 
-I have a bunch of smaller projects (some from uni, some from elsewhere), but these are the ones that deserve a mention. The rest are on my [GitHub](https://github.com/mark-antal-csizmadia).
+## Contact
+
+You can reach me at my email (mark.antal.csizmadia@gmail.com) or LinkedIn ([linkedin.com/in/mark-antal-csizmadia](https://www.linkedin.com/in/mark-antal-csizmadia/))
