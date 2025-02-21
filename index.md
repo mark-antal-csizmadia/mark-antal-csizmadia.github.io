@@ -74,11 +74,10 @@ I also have experience with:
     * Time-series forecasting of crypto currency exchange rates with XGBoost and Transformers.
     * Deploying models with MLflow.
     * Fun project to learn about time series forecasting, financial data, and MLflow.
-* Algorithmic trading with Reinforcement Learning using Stable-Baselines3
-    * I worked on an algorithmic trading application with friends, where we trained XGBoost and Transformer-based time series neural networks to predict crypto currency exchange rates, and used Reinforcement Learning (RL) to optimise trading strategies.
-    * We built data processing pipelines to fetch, process, and store Kline Candlestick Data, Order Book Data, etc. from Binance for many crypto currency pairs.
-    * We then trained RL models to learn trading strategies given various primary and secondary objectives, such as maximising profit, minimising risk, maximising Sharpe ratio, etc.
-        * One important feature was the predicted exchange rate at so many time steps ahead, for which we used XGBoost and Transformers.
+* Algorithmic trading with Reinforcement Learning using Stable-Baselines3 
+    * Worked on an algorithmic trading application as a startup project.
+    * Trainined, evaluated, and deployed XGBoost and Transformer-based time series neural networks to predict crypto currency exchange rates using Kline Candlestick Data, Order Book Data, etc. from Binance for many crypto currency pairs.
+    * Used Reinforcement Learning (RL) to optimise trading strategies given various primary and secondary objectives, such as maximising profit, minimising risk, maximising Sharpe ratio, etc. (Stable-Baselines3)
     * This project was a lot of fun, but we never published it because we never actually found a strategy that consistently beat the market. I learned a lot, though, about evaluating RL models which is a really different problem from evaluating supervised models.
     * If one was to start with a similar project, I would recommend reading some of the best papers on the topic of RL evaluation (in my opinion): [Deep Reinforcement Learning that Matters](https://arxiv.org/pdf/1709.06560), [Empirical Design in Reinforcement Learning](https://arxiv.org/pdf/2304.01315), the best blog post: [Rliable: Better Evaluation for Reinforcement Learning - A Visual Explanation](https://araffin.github.io/post/rliable/), and to play around with the best RL library: [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3).
 * [NeRFs](https://arxiv.org/abs/2003.08934) for 3D reconstruction
